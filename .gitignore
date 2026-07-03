@@ -8,3 +8,7 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+#Test files
+test.py
+
