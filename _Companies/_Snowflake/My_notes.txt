@@ -1,0 +1,20 @@
+.isalnum()
+count.get(s[r], 0) # dictionairy get 
+# Test
+assert is_palindrome("A man, a plan, a canal: Panama") == True
+intervals.sort(key=lambda x: x[0])
+ctr.most_common(2)
+heapq.heapify(myheap) # heapq.heapreplace(myheap, val), heapq.heappush(myheap, val), heapq.heappop(myheap, val)
+
+-----
+max() over (partition by department rows/range between unbounded preceding and current row)
+where rownum <=5
+FETCH FIRST 5 ROWS ONLY;
+or
+OFFSET 10 ROWS FETCH NEXT 5 ROWS ONLY; 	-- Skip first 10, then fetch next 5 (pagination)
+or
+FETCH FIRST 10 PERCENT ROWS ONLY;	-- Top 10% by row count
+or
+FETCH FIRST 5 ROWS WITH TIES;		-- Include ties at the boundary (returns 5 OR MORE rows if there's a tie at row 5)
+
+
